@@ -1,0 +1,5 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Patients		TAR	325	nouvelle taille enregistrement : 325
+Patients	Num_Salle	RUB+		Num_Salle est une nouvelle clé
+Salles		NFI		nouveau fichier
+Contrainte_Patients_Salles		NWL	Salles (Num_Salle) et Patients (Num_Salle)	Nouvelle liaison entre les fichiers Salles (Num_Salle) et Patients (Num_Salle)

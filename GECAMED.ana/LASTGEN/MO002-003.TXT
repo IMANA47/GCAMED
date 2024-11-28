@@ -1,0 +1,27 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Patients		TAR	329	nouvelle taille enregistrement : 329
+Patients	Num_Caissier	RUB+		Num_Caissier est une nouvelle clé
+Traitements		NFI		nouveau fichier
+Rendez_Vous		NFI		nouveau fichier
+Maladies		NFI		nouveau fichier
+Maladies_Patients		NFI		nouveau fichier
+Caissiers		NFI		nouveau fichier
+Ordonnances		NFI		nouveau fichier
+Medicaments		NFI		nouveau fichier
+Medicaments_Ordonnances		NFI		nouveau fichier
+Medecin		NFI		nouveau fichier
+Consultations		NFI		nouveau fichier
+Factures		NFI		nouveau fichier
+Contrainte_Traitements_Patients		NWL	Patients (Num_Patient) et Traitements (Num_Patient)	Nouvelle liaison entre les fichiers Patients (Num_Patient) et Traitements (Num_Patient)
+Contrainte_Rendez_Vous_Patients		NWL	Patients (Num_Patient) et Rendez_Vous (Num_Patient)	Nouvelle liaison entre les fichiers Patients (Num_Patient) et Rendez_Vous (Num_Patient)
+Contrainte_Maladies_Patients		NWL	Maladies (Code_Maladie) et Maladies_Patients (Code_Maladie)	Nouvelle liaison entre les fichiers Maladies (Code_Maladie) et Maladies_Patients (Code_Maladie)
+Contrainte_Patients_Maladies		NWL	Patients (Num_Patient) et Maladies_Patients (Num_Patient)	Nouvelle liaison entre les fichiers Patients (Num_Patient) et Maladies_Patients (Num_Patient)
+Contrainte_Medicaments_Ordonnances		NWL	Medicaments (Code_Medicament) et Medicaments_Ordonnances (Code_Medicament)	Nouvelle liaison entre les fichiers Medicaments (Code_Medicament) et Medicaments_Ordonnances (Code_Medicament)
+Contrainte_Ordonnances_Medicaments		NWL	Ordonnances (Code_Ordonnance) et Medicaments_Ordonnances (Code_Ordonnance)	Nouvelle liaison entre les fichiers Ordonnances (Code_Ordonnance) et Medicaments_Ordonnances (Code_Ordonnance)
+Contrainte_Medecin_Ordonnances		NWL	Medecin (Num_Medecin) et Ordonnances (Num_Medecin)	Nouvelle liaison entre les fichiers Medecin (Num_Medecin) et Ordonnances (Num_Medecin)
+Contrainte_Rendez_Vous_Medecin		NWL	Medecin (Num_Medecin) et Rendez_Vous (Num_Medecin)	Nouvelle liaison entre les fichiers Medecin (Num_Medecin) et Rendez_Vous (Num_Medecin)
+Contrainte_Medecin_Consultations		NWL	Medecin (Num_Medecin) et Consultations (Num_Medecin)	Nouvelle liaison entre les fichiers Medecin (Num_Medecin) et Consultations (Num_Medecin)
+Contrainte_Patients_Consultations		NWL	Patients (Num_Patient) et Consultations (Num_Patient)	Nouvelle liaison entre les fichiers Patients (Num_Patient) et Consultations (Num_Patient)
+Contrainte_Factures_Caissiers		NWL	Caissiers (Num_Caissier) et Factures (Num_Caissier)	Nouvelle liaison entre les fichiers Caissiers (Num_Caissier) et Factures (Num_Caissier)
+Contrainte_Caissiers_Patients		NWL	Caissiers (Num_Caissier) et Patients (Num_Caissier)	Nouvelle liaison entre les fichiers Caissiers (Num_Caissier) et Patients (Num_Caissier)
+Medecin	Sexe__Medecin	RRN		
