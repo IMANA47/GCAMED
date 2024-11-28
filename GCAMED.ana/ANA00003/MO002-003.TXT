@@ -1,0 +1,4 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Patients		TAR	324	nouvelle taille enregistrement : 324
+Patients	Sexe_patient	CNW	Chaîne$Booléen	la rubrique Sexe_patient a pour nouveau type Chaîne
+Patients	Status_Social_Patient	RUB+		Status_Social_Patient est une nouvelle rubrique

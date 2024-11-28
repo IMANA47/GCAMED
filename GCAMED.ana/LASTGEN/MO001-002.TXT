@@ -1,0 +1,14 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Factures		NFI		nouveau fichier
+consultations	Date_consultations	NNR	Date_consu	ATTENTION : la rubrique Date_consu a pour nouveau nom Date_consultations
+Medecins		NFI		nouveau fichier
+Ordonnances		NFI		nouveau fichier
+Medicaments		NFI		nouveau fichier
+Rendez_vous		NFI		nouveau fichier
+Patients		NFI		nouveau fichier
+Cassiers		NFI		nouveau fichier
+Salles		NFI		nouveau fichier
+Maladies		NFI		nouveau fichier
+Traitements		NFI		nouveau fichier
+Patient_Maladies		NFI		nouveau fichier
+Factures		FRN		

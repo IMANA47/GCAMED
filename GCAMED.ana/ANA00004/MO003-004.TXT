@@ -1,0 +1,4 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+Cassiers		TAR	221	nouvelle taille enregistrement : 221
+Cassiers	Sexe_caissier	CNW	Chaîne$Booléen	la rubrique Sexe_caissier a pour nouveau type Chaîne
+Cassiers	Téléphone_caissier	RUB+		Téléphone_caissier est une nouvelle rubrique
